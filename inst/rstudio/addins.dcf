@@ -1,0 +1,4 @@
+Name: Render and Open (no server)
+Description: Render the active .qmd/.Rmd file and open the HTML in the browser, with no preview server or file watcher.
+Binding: render_and_open
+Interactive: false

@@ -1,0 +1,15 @@
+Package: quartoRenderAddin
+Type: Package
+Title: Render Current Quarto Document Without Preview Server
+Version: 0.1.0
+Authors@R: person("Rob", "Cavanaugh", email = "rb-cavanaugh@users.noreply.github.com", role = c("aut", "cre"))
+Description: An RStudio addin that renders the currently open .qmd/.Rmd
+    file to HTML and opens it in the browser, without starting a
+    background preview server or file watcher.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    rstudioapi,
+    quarto,
+    utils
+Config/roxygen2/version: 8.0.0
