@@ -10,7 +10,7 @@ find the Quarto Render button's background preview job (and the
 
 ```r
 # install.packages("remotes")
-remotes::install_github("yourusername/quartoRenderAddin")
+remotes::install_github("rbcavanaugh/quartoRenderAddin")
 ```
 
 ## Use
